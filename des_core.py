@@ -65,8 +65,7 @@ S = [
  [7,11,4,1,9,12,14,2,0,6,10,13,15,3,5,8],
  [2,1,14,7,4,10,8,13,15,12,9,0,3,5,6,11]]
 ]
-
-# ==== Fungsi bantu ====
+# ==== Fungsi Dasar Bit Manipulation ====
 def permute(bits, table): return [bits[i-1] for i in table]
 def xor(a,b): return [i^j for i,j in zip(a,b)]
 def left_shift(bits, n): return bits[n:]+bits[:n]
