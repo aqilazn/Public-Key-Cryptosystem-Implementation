@@ -33,7 +33,6 @@ python des_client_rsa.py
 Program akan meminta input:
 ```
 Enter server IP: 127.0.0.1
-Enter your name: Alice
 ```
 Isi IP server (gunakan `127.0.0.1` untuk localhost) dan nama klien.
 
@@ -44,7 +43,6 @@ python des_client_rsa.py
 Ulangi langkah yang sama dengan nama berbeda:
 ```
 Enter server IP: 127.0.0.1
-Enter your name: Bob
 ```
 
 #### 4. **Mulai Chat**
